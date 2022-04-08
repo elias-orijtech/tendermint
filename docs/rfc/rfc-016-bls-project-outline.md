@@ -22,14 +22,17 @@
 
 #### Reduce Commit Size
 * How big are commits now per validator? Well, it scales linearly with num vals
-*
+	BlockIdFlag      ValidatorAddress Timestamp        Signature        
+	32      20 * 8 bit + 64+32+ 512
+	(both secp and ed are 512 bits long)
+
 #### Reduce Gossip Bandwidth
 
 #### Reduce Gossip Bandwidth
 
 * Allow for smaller IBC Packets in Cosmos-> Tendermint headers will only require
-* one signature Perform signature aggregation during gossip to reduce total
-* bandwidth. Speed of signature verification
+one signature Perform signature aggregation during gossip to reduce total
+bandwidth. Speed of signature verification
 
 ### What are the drawbacks to aggregated signatures?
 
