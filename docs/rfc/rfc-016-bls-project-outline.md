@@ -48,6 +48,7 @@ bandwidth. Speed of signature verification
 
 ### References
 
-[line-ostracton-repo]: https://github.com/line/ostracon [line-ostracton-pr]:
-https://github.com/line/ostracon/pull/117 [mit-BLS-lecture]:
-https://youtu.be/BFwc2XA8rSk?t=2521
+[line-ostracton-repo]: https://github.com/line/ostracon 
+[line-ostracton-pr]: https://github.com/line/ostracon/pull/117 
+[mit-BLS-lecture]: https://youtu.be/BFwc2XA8rSk?t=2521
+[gcp-storage-pricing]: https://cloud.google.com/storage/pricing#north-america_2
