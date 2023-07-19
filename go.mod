@@ -5,7 +5,7 @@ go 1.16
 require (
 	github.com/BurntSushi/toml v1.1.0
 	github.com/Workiva/go-datastructures v1.0.53
-	github.com/adlio/schema v1.3.0
+	github.com/adlio/schema v1.3.2
 	github.com/btcsuite/btcd v0.22.0-beta
 	github.com/btcsuite/btcutil v1.0.3-0.20201208143702-a53e38424cce
 	github.com/creachadair/taskgroup v0.3.2
@@ -40,7 +40,7 @@ require (
 	github.com/tendermint/tm-db v0.6.6
 	github.com/vektra/mockery/v2 v2.10.4
 	golang.org/x/crypto v0.0.0-20220214200702-86341886e292
-	golang.org/x/net v0.0.0-20211208012354-db4efeb81f4b
+	golang.org/x/net v0.0.0-20220617184016-355a448f1bc9
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	google.golang.org/grpc v1.45.0
 	gopkg.in/check.v1 v1.0.0-20200902074654-038fdea0a05b // indirect
